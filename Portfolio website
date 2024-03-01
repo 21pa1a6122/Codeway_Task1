@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #home{
+                background-image: url(https://i.pinimg.com/originals/85/94/8f/85948f2ac3ed9bd700367f9adf7a7500.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 90vh;
+            }
+            #h1{
+                color: white;
+                position: absolute;
+                top:180px ;
+                left: 300px;
+            }
+            #h2{
+                color: white;
+                position: absolute;
+                top: 210px;
+                left: 300px;
+            }
+            #i1{
+                position: absolute;
+                top: 300px;
+                left: 400px;
+            }
+            #about{
+                background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/black-leaves-with-water-drops-free-photo.jpg?w=600&quality=80);
+                height: 100vh;
+                position: relative;
+            }
+            #d1{
+                height: 500px;
+                width: 700px;
+                background-color: lavenderblush;
+                position: relative;
+                top: 100px;
+                left:350px;
+            }
+            h3{
+                color: #490400;
+                position: relative;
+                top: 20px;
+                left: 20px;
+            }
+            #me{
+                position: relative;
+                top: 100px;
+                left: 0px;
+                color: #b85d9c;
+            }
+            li{
+                color: #b85d9c;
+                position: relative;
+                left: 2px;
+            }
+            #ex{
+                position: absolute;
+                top: 50px;
+                left: 330px;
+            }
+            #p{
+                color: #b85d9c;
+                position: absolute;
+                top: 80px;
+                left: 330px;
+                font-size: 20px;
+            }
+            #ski{
+                position: relative;
+                top: 120px;
+                left: 35px;
+            }
+            #pro{
+                background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/black-leaves-with-water-drops-free-photo.jpg?w=600&quality=80);
+                height: 120vh;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            #proj{
+                height: 680px;
+                width: 900px;
+                background-color: lavenderblush;
+                margin-left: 250px;
+                margin-top: 10px;
+                position: relative;
+                top: 30px;
+            }
+            h2{
+                color: #490400;
+            }
+            #i2{
+                height: 190px;
+                width: 250px;
+                position: relative;
+                left: 300px;
+            }
+            #p1{
+                color: #b85d9c;
+                font-size: 17px;
+            }
+            #cont{
+                background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/black-leaves-with-water-drops-free-photo.jpg?w=600&quality=80);
+                height: 700px;
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            #contact{
+                height: 500px;
+                width: 600px;
+                background-color: lavenderblush;
+                position: relative;
+                top: 50px;
+                left: 350px;
+            }
+            label{
+                color: #b85d9c;
+                position: relative;
+                left: 20px;
+            }
+            #i3{
+                height: 30px;
+                width: 30px;
+                margin-left: 10px;
+            }
+            #sp1{
+                color: #b85d9c;
+                margin-left: 15px;
+            }
+            #i4{
+                height: 25px;
+                width: 25px;
+                position: relative;
+                top: 80px;
+                left: 10px;
+            }
+            #i5{
+                height: 10px;
+                width: 10px;
+                position: relative;
+                bottom: 3px;
+            }
+            #sp2{
+                position: relative;
+                top: 73px;
+                left: 15px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="home">
+            <h1 id="h1">Hi!</h1>
+            <h1 id="h2"> I am Goru Shanmukha Sri Krishna Laasya</h1>
+            <img id="i1" src="data:image/png;base64,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">
+        </div>
+        <div id="about">
+            <div id="d1">
+                <div id="me">
+                    <ul>Name:Goru Shanmukha Sri Krishna Laasya</ul>
+                    <ul>Profile:Web Developer</ul>
+                    <ul>Address:Eluru</ul>
+                    <ul>Phone:9392682117</ul>
+                </div>
+                <div id="ski">
+                <h3 id="sk"><u>SKILLS</u></h3>
+                <li>HTML/CSS</li>
+                <li>Python</li>
+                <li>Basic Javascript</li>
+                <li>SQL</li>
+                <li>C</li>
+                <li>Java</li>
+            </div>
+                <h3 id="ex"><u>About me</u></h3>
+                <div id="p">
+                <p> I am enthusiastic,self-motivated, reliable, responsible and hard-working person. I am mature team worker and adaptable to al challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                <p>I have an internship under<u> AICTE in the domain of cyber security and AWS AI-ML virtual internship and GOOGLE AI-ML course</u>. I have done <u>Library management</u> as a mini project. I am looking forward to gain more experience in this field.</p>
+            </div>
+            </div>
+            </div>
+            <div id="pro">
+                <div id="proj">
+                    <h2><u>Internships</u></h2>
+                    <p id="p1">I had done this internship under AICTE in the domain of cyber security and AWS cloud foundation and GOOGLE AI-ML course.I had done Library management mini project.</p>
+                    <p id="p1">I received two internship completion certificates from AICTE EDUSKILLS</p>
+                    <img id="i2" src="C:\Users\DELL\Pictures\Screenshots\Screenshot (27).png">
+                    <p id="p1">The certificate of the AI-ML internship is present above image.</p>
+                    <img id="i2" src="C:\Users\DELL\Pictures\Screenshots\Screenshot (28).png">
+                    <p id="p1">In the above picture we can see the internship certificate of Palo Alto cyber security.</p>
+                </div>
+            </div>
+            <div id="cont">
+                <div id="contact">
+                    <h2><u>Contact Me</u></h2>
+                    <label>Name : Goru Shanmukha Sri Krishna Laasya</label><br>
+                    <label>Phone : 9392682117</label><br>
+                    <label>G-Mail : 21pa1a6122@vishnu.edu.in</label><br>
+                    <label>Linkedin : <a href="www.linkedin.com/in/goru-shanmukha-sri-krishna-laasya-9695a9267">www.linkedin.com/in/goru-shanmukha-sri-krishna-laasya-9695a9267</a></label><br>
+                <br>
+                <h2 id="co"><u>Connect with me</u></h2>
+                <div id="image">
+                    <img id="i3" src="https://cdn-icons-png.flaticon.com/128/14845/14845724.png">
+                    <img id="i3" src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png">
+                    <img id="i3" src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png">
+                </div>
+                <br>
+                <h2 id="dow"><u>Download</u></h2>
+                <span id="sp1">Download <a href="https://gray-ibbie-21.tiiny.site">my resume</a></span><br>
+                <img id="i4" src="https://cdn-icons-png.flaticon.com/128/3502/3502463.png"><b><span id="sp2">Copyright<img id="i5" src="https://cdn-icons-png.flaticon.com/128/74/74717.png"> All rights preserved to Goru Shanmukha Sri Krishna Laasya</span></b>
+                </div>
+            </div>
+    </body>
+</html>
